@@ -1,24 +1,24 @@
 {
-  "name": "chat2k",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@chat2k/api",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Servidor del chat",
+  "type": "module",
+  "main": "dist/index.js",
   "scripts": {
-    "dev": "tsx watch index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "^11.4.0",
-      "onFail": "download"
+      "version": "11.4.0"
     }
   },
-  "type": "module",
   "dependencies": {
+    "@chat2k/shared": "workspace:*",
     "express": "^5.2.1",
     "socket.io": "^4.8.3"
   },
