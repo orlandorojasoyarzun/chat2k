@@ -1,0 +1,29 @@
+.lista {
+  background: #ffffff;
+  border: 2px solid;
+  border-color: #808080 #ffffff #ffffff #808080;
+  padding: 8px;
+  overflow-y: auto;
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.vacio {
+  color: #808080;
+  font-style: italic;
+}
+
+.mensaje {
+  margin-bottom: 4px;
+  word-wrap: break-word;
+}
+
+.nick {
+  color: #000080;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.texto {
+  color: #000000;
+}

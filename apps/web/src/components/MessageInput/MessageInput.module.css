@@ -1,0 +1,43 @@
+.wrapper {
+  background: #c0c0c0;
+  border: 2px solid;
+  border-color: #ffffff #000000 #000000 #ffffff;
+  padding: 6px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.nickInput {
+  background: #ffffff;
+  border: 2px solid;
+  border-color: #808080 #ffffff #ffffff #808080;
+  padding: 4px 6px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 13px;
+  width: 100px;
+}
+
+.textoInput {
+  flex: 1;
+  background: #ffffff;
+  border: 2px solid;
+  border-color: #808080 #ffffff #ffffff #808080;
+  padding: 4px 6px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 13px;
+}
+
+.boton {
+  border: 2px solid;
+  border-color: #ffffff #000000 #000000 #ffffff;
+  background: #c0c0c0;
+  padding: 4px 14px;
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.boton:active {
+  border-color: #000000 #ffffff #ffffff #000000;
+}

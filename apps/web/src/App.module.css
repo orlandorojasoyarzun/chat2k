@@ -1,0 +1,25 @@
+.app {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  grid-template-rows: 1fr auto;
+  grid-template-areas:
+    'messages channels'
+    'input channels';
+  height: 100vh;
+  width: 100vw;
+  gap: 4px;
+  padding: 4px;
+  background: #c0c0c0;
+}
+
+.app > :global(.message-list) {
+  grid-area: messages;
+}
+
+.app > :global(.message-input) {
+  grid-area: input;
+}
+
+.app > :global(.channel-list) {
+  grid-area: channels;
+}
